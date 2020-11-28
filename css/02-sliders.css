@@ -94,7 +94,9 @@
   transform: rotate(90deg);
   display: flex; }
 
-.slider__slick {
+.slider__slick,
+.slider__scroll-category,
+.deal__slide {
   max-width: 100vw;
   width: 100%;
   display: block;
