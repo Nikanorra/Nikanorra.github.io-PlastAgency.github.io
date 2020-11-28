@@ -6,10 +6,6 @@
     display: flex;
 }
 
-.row {
-    display: flex;
-}
-
 .col-12 {
   width: 100%;
 
@@ -61,5 +57,4 @@ width: calc(100% / 12 * 5);
 [class*="col-"] {
   padding-left: 15px;
   padding-right: 15px;
-  /* border: 1px solid green; */
 }
