@@ -124,4 +124,10 @@ header .container {
       top: 0;
       right: 0; }
 
+.navigation-main__icon {
+  opacity: 0; }
+
+.select_icon {
+  opacity: 0; }
+
 /*# sourceMappingURL=01_header.css.map */
