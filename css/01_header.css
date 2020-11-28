@@ -1,0 +1,124 @@
+header .container {
+  display: flex;
+  justify-content: space-between; }
+  header .container .free-icon {
+    padding-right: 10px; }
+
+.header-top {
+  margin: 13px 0;
+  font-size: 14px; }
+  .header-top .col-6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+.header-top__free {
+  display: flex;
+  align-items: center;
+  flex-grow: 2;
+  font-size: 11px;
+  text-transform: uppercase; }
+
+/*select*/
+.select_wrap {
+  position: relative; }
+
+.select_wrap .default_option {
+  background: none;
+  position: relative;
+  cursor: pointer; }
+
+.select_wrap .select_ul {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  display: none; }
+
+.select_wrap .select_ul li {
+  padding: 10px 20px;
+  cursor: pointer; }
+
+.select_wrap .select_ul li:hover {
+  background: #f0f0f0; }
+
+.select_wrap .option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .select_wrap .option span {
+    padding: 0 5px; }
+
+.default_option div {
+  border-right: 1px solid #CDCDCD;
+  padding: 0 15px; }
+
+.select_wrap.active .select_ul {
+  display: block; }
+
+/*right*/
+.header-navigation {
+  margin: 24px 0; }
+
+.header-top__text a {
+  display: block;
+  margin: 0 15px; }
+
+.header-top__social a {
+  margin: 0 5px; }
+
+.header-top__text {
+  padding-left: 150px; }
+
+.header-top__text,
+.header-top__social {
+  display: flex;
+  justify-content: space-around; }
+
+.logo {
+  font-size: 28px;
+  font-weight: bold; }
+
+.navigation-main ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .navigation-main ul li {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400; }
+    .navigation-main ul li a {
+      border-bottom: 1px solid #111111;
+      display: block;
+      padding: 5px 3px;
+      transition: .3s; }
+      .navigation-main ul li a:hover {
+        color: #FF6F61;
+        border-bottom: 1px solid #FF6F61; }
+
+.navigation-icons {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 29px; }
+  .navigation-icons a {
+    padding: 0 10px;
+    position: relative;
+    height: 29px;
+    display: flex;
+    align-items: flex-end; }
+    .navigation-icons a svg {
+      height: 16px; }
+    .navigation-icons a .count {
+      background-color: #FF6F61;
+      border-radius: 50%;
+      color: #fff;
+      font-size: 11px;
+      padding: 3px 6px;
+      position: absolute;
+      top: 0;
+      right: 0; }
+
+/*# sourceMappingURL=01_header.css.map */

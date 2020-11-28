@@ -1,0 +1,130 @@
+.best {
+  margin-top: 90px; }
+
+.best__title {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.best__wrrapp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.best__card {
+  position: relative;
+  margin-top: 50px; }
+
+.best__labe {
+  position: absolute;
+  top: 20px;
+  font-size: 11px;
+  text-transform: uppercase; }
+  .best__labe div {
+    padding: 5px 10px; }
+
+.best__labe-new {
+  background-color: #fff;
+  color: #1F1F1F; }
+
+.best__labe-sale {
+  background-color: #1F1F1F;
+  color: #fff; }
+
+.best__text {
+  padding-top: 15px;
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  transition: .5s; }
+
+.best__text-visual {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
+  .best__text-visual .title {
+    font-size: 16px;
+    font-weight: 600; }
+  .best__text-visual .classification {
+    font-size: 13px;
+    color: #767676;
+    margin-top: 8px; }
+  .best__text-visual .full {
+    font-size: 15px;
+    color: #767676; }
+  .best__text-visual .old {
+    color: #A0A0A0;
+    font-size: 13px;
+    text-decoration: line-through;
+    margin-bottom: 8px; }
+  .best__text-visual .sale {
+    color: #FF6F61;
+    font-size: 15px; }
+
+.best__card {
+  position: relative;
+  height: 390px; }
+  .best__card .best__text-hover {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #767676;
+    opacity: 0; }
+  .best__card:hover {
+    cursor: pointer; }
+    .best__card:hover .best__text {
+      bottom: 35px; }
+    .best__card:hover .best__text-hover {
+      opacity: 1; }
+
+.coloration {
+  display: flex;
+  margin-bottom: 8px; }
+
+.coloration__hover {
+  border: transparent solid 1px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  transition: .5s; }
+  .coloration__hover:hover {
+    border: #1F1F1F solid 1px; }
+
+.color-grey {
+  background-color: #1F1F1F;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transition: .3s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.color-black {
+  background-color: #909090;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transition: .3s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.best__more {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #111111;
+  cursor: pointer; }
+  .best__more a {
+    padding: 0 10px;
+    border-bottom: 1px solid #111111; }
+
+/*# sourceMappingURL=05-best.css.map */

@@ -1,0 +1,60 @@
+.collection .container {
+  display: flex;
+  justify-content: space-between; }
+  .collection .container .col-6 {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between; }
+
+.collection__home {
+  position: relative; }
+
+.collection__home-bg {
+  background: #fff;
+  padding: 20px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px; }
+  .collection__home-bg .collection__home-text {
+    width: 308px; }
+  .collection__home-bg h3 {
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 15px; }
+
+.collection__group {
+  height: 270px;
+  margin-bottom: 20px;
+  margin-top: 20px; }
+  .collection__group .text {
+    text-align: center;
+    margin-top: 15px; }
+    .collection__group .text h4 {
+      font-size: 24px;
+      margin-bottom: 10px; }
+    .collection__group .text p {
+      font-size: 18px;
+      color: #767676; }
+
+/*sale*/
+.collection__sale {
+  background-color: #1F1F1F;
+  margin-top: 100px;
+  padding: 102px 0; }
+
+.collection__sale-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  width: 100%;
+  font-size: 24px; }
+  .collection__sale-text .collection__sale-small {
+    font-size: 14px; }
+  .collection__sale-text .collection__sale-main {
+    font-size: 50px;
+    font-weight: 600;
+    padding: 20px 0; }
+
+/*# sourceMappingURL=04-collection.css.map */
