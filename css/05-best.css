@@ -38,7 +38,7 @@
   position: absolute;
   background: #fff;
   width: 100%;
-  transition: .5s; }
+  transition: .3s; }
 
 .best__text-visual {
   display: flex;
@@ -70,6 +70,7 @@
     margin-top: 8px;
     font-size: 14px;
     color: #767676;
+    transition: .9s;
     opacity: 0; }
   .best__card:hover {
     cursor: pointer; }
@@ -117,7 +118,7 @@
 
 .best__more {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 100px;
   font-size: 14px;
   font-weight: 600;
