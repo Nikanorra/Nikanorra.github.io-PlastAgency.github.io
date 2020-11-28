@@ -4,7 +4,7 @@
 		  infinite: true,
 		  speed: 1000,
 			cssEase: 'linear',
-			autoplaySpeed: 5000,
+			autoplaySpeed: 3000,
 		  fade: true,
 			autoplay: true,
 			mobileFirst: true,
@@ -16,6 +16,8 @@
 		$('.slider__scroll-category').slick({
 			// prevArrow: '.slider__slick-navigation-prev',
 			// nextArrow: '.slider__slick-navigation-next',
+			autoplay: true,
+			autoplaySpeed: 3500,
 		  slidesToShow: 7,
 		  slidesToScroll: 1,
 			mobileFirst: true,
@@ -67,6 +69,8 @@
 		});
 
 		$('.deal__slide').slick({
+			autoplay: true,
+			autoplaySpeed: 3500,
 			arrows: false,
 			dots: true,
 		  slidesToShow: 3,
