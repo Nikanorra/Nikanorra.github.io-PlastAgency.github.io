@@ -65,7 +65,7 @@
 
 .best__card {
   position: relative;
-  height: 390px; }
+  margin-bottom: 50px; }
   .best__card .best__text-hover {
     margin-top: 8px;
     font-size: 14px;
@@ -74,7 +74,7 @@
   .best__card:hover {
     cursor: pointer; }
     .best__card:hover .best__text {
-      bottom: 35px; }
+      bottom: -30px; }
     .best__card:hover .best__text-hover {
       opacity: 1; }
 
