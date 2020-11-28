@@ -102,6 +102,9 @@
   .header-top__text a {
     margin: 0 5px; }
 
+  .slider__pic .container .col-5 {
+    height: 350px; }
+
   .slider__propose-container {
     width: 350px; }
 
@@ -165,6 +168,8 @@
 @media screen and (max-width: 450px) {
   .header-navigation .container {
     flex-direction: column; }
+    .header-navigation .container .col-4 {
+      width: 100%; }
 
   .slider__propose-bg h2 {
     font-size: 30px;
