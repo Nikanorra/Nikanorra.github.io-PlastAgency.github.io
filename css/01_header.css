@@ -12,6 +12,9 @@ header .container {
     justify-content: space-between;
     align-items: center; }
 
+.select_container {
+  display: flex; }
+
 .header-top__free {
   display: flex;
   align-items: center;
@@ -77,7 +80,7 @@ header .container {
   display: flex;
   justify-content: space-around; }
 
-.logo {
+.navigation-logo {
   font-size: 28px;
   font-weight: bold; }
 

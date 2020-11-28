@@ -38,18 +38,31 @@
     {
       breakpoint: 1000,
       settings: {
-        slidesToShow: 7,
+        slidesToShow: 6,
         slidesToScroll: 1
       }
     },
+		{
+      breakpoint: 900,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1
+      }
+    },
+		{
+			breakpoint: 650,
+			settings: {
+				slidesToShow: 3,
+				slidesToScroll: 1
+			}
+		},
 			{
       breakpoint: 320,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1
       }
     }
-
   ]
 		});
 
@@ -79,6 +92,20 @@
       breakpoint: 1000,
       settings: {
         slidesToShow: 3,
+        slidesToScroll: 2
+      }
+    },
+		{
+      breakpoint: 750,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+		{
+      breakpoint: 450,
+      settings: {
+        slidesToShow: 1,
         slidesToScroll: 2
       }
     },
