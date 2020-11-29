@@ -16,8 +16,8 @@
 		});
 //category
 		$('.slider__scroll-category').slick({
-			// prevArrow: '.slider__slick-navigation-prev',
-			// nextArrow: '.slider__slick-navigation-next',
+			prevArrow: '.slider__scroll-prev',
+			nextArrow: '.slider__scroll-next',
 			autoplay: true,
 			autoplaySpeed: 3500,
 		  slidesToShow: 7,
