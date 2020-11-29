@@ -1,5 +1,6 @@
 footer {
-  background-color: #2b2b2b;
+  position: relative;
+  background-color: #1F1F1F;
   color: #fff; }
   footer .container {
     display: flex;
@@ -72,5 +73,22 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
+
+footer {
+  position: relative; }
+
+.footer-shape {
+  position: absolute; }
+  .footer-shape svg {
+    fill: rgba(128, 128, 128, 0.1); }
+  .footer-shape.top {
+    top: 0;
+    left: 0; }
+  .footer-shape.bottom {
+    bottom: 0;
+    right: 0; }
+
+.footer-form, .form-navigation, .footer-bottom {
+  z-index: 10; }
 
 /*# sourceMappingURL=08-footer.css.map */
