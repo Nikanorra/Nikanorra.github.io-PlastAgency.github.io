@@ -239,7 +239,14 @@
     width: 320px; }
 
   .shop__categories-text p {
-    margin-top: 12px; } }
+    margin-top: 12px; }
+
+  .footer-shape .top svg {
+    width: 300px;
+    height: 159px; }
+  .footer-shape .bottom svg {
+    width: 300px;
+    height: 317px; } }
 @media screen and (max-width: 390px) {
   .slider__propose-bg {
     padding: 10px; }

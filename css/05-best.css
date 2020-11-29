@@ -126,6 +126,10 @@
   cursor: pointer; }
   .best__more a {
     padding: 0 10px;
-    border-bottom: 1px solid #111111; }
+    border-bottom: 1px solid #111111;
+    transition: .5s; }
+    .best__more a:hover {
+      color: #FF6F61;
+      border-bottom: 1px solid #FF6F61; }
 
 /*# sourceMappingURL=05-best.css.map */

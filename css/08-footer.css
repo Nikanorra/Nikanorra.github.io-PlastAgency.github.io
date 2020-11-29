@@ -30,7 +30,11 @@ footer {
     padding: 0 35px;
     height: 60px;
     background-color: #525252;
-    color: #fff; }
+    color: #fff;
+    cursor: pointer;
+    transition: .5s; }
+    .footer-form button:hover {
+      background-color: #111111; }
 
 .form-navigation {
   margin-top: 80px;
@@ -87,8 +91,5 @@ footer {
   .footer-shape.bottom {
     bottom: 0;
     right: 0; }
-
-.footer-form, .form-navigation, .footer-bottom {
-  z-index: 10; }
 
 /*# sourceMappingURL=08-footer.css.map */
