@@ -68,6 +68,9 @@ table {
 input[type="text" i] {
   padding: 0; }
 
+textarea:focus, input:focus {
+  outline: none; }
+
 body, p, h3 {
   padding: 0;
   margin: 0 auto; }

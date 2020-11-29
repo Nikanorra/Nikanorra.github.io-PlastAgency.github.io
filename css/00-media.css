@@ -16,37 +16,22 @@
     .header-navigation .container .col-4.icons {
       order: 3; }
 
-  .navigation-main__icon {
-    opacity: 1; }
-    .navigation-main__icon .fas.fa-bars {
-      color: #fff;
-      font-size: 18px;
-      background-color: #FF6F61;
-      padding: 9px 10px;
-      border-radius: 50%; }
+  .fas.fa-bars {
+    color: #fff;
+    font-size: 18px;
+    background-color: #FF6F61;
+    padding: 9px 10px;
+    border-radius: 50%; }
 
-  .select_container .select_wrap {
-    display: none; }
-    .select_container .select_wrap.mobile {
-      background: #303030;
-      display: flex;
-      position: absolute;
-      z-index: 10; }
-  .select_container .select_icon {
+  .select_icon {
     padding: 5px;
     border: 1px solid #111111;
     border-radius: 50%;
     opacity: 1; }
-    .select_container .select_icon .fas.fa-cog {
+    .select_icon .fas.fa-cog {
       color: #111111;
       font-size: 18px; }
 
-  .select_container .select_wrap {
-    display: none; }
-    .select_container .select_wrap.mobile {
-      display: flex;
-      width: 100%;
-      margin-top: 50px; }
   .select_container .select_icon {
     padding: 5px;
     border: 1px solid #111111;
@@ -64,7 +49,57 @@
     order: 2; }
 
   .select_container {
-    order: 1; } }
+    order: 1; }
+
+  .select_container {
+    flex-direction: column;
+    width: 50%; }
+
+  .select_container label {
+    display: block; }
+
+  .select_wrap {
+    display: none;
+    top: 5px;
+    width: 100%; }
+    .select_wrap ul {
+      width: 100%;
+      margin-bottom: 5px; }
+    .select_wrap .option {
+      justify-content: flex-start; }
+    .select_wrap .select_ul {
+      top: 20px; }
+
+  .header-top .container .col-6 {
+    width: 100%; }
+
+  #btn-set:checked ~ .select_wrap {
+    display: flex; }
+
+  .navigation-main__icon {
+    display: block; }
+
+  .navigation-main {
+    display: none;
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    left: 0; }
+    .navigation-main ul {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%; }
+      .navigation-main ul li {
+        z-index: 200;
+        background: #fff;
+        width: 100%;
+        padding: 5px; }
+
+  #btn-menu:checked ~ .navigation-main {
+    display: flex; }
+
+  .main label {
+    display: block; } }
 @media screen and (max-width: 930px) {
   .slider__pic .container .col-5 {
     height: 500px; }

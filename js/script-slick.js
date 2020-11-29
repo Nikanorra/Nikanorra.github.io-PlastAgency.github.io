@@ -1,13 +1,15 @@
 
 	$(document).ready(function(){
+		$(".slick-track").css("max-width", $(window).width());
+
 	  $('.slider__slick').slick({
-		  infinite: true,
+		  infinite: false,
 		  speed: 1000,
 			cssEase: 'linear',
 			autoplaySpeed: 3000,
 		  fade: true,
 			autoplay: true,
-			mobileFirst: true,
+			// mobileFirst: true,
 			dots: true,
 			prevArrow: '.slider__slick-navigation-prev',
 			nextArrow: '.slider__slick-navigation-next'

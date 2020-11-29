@@ -27,5 +27,6 @@ $(document).ready(function(){
 		var currentele = $(this).html();
 		$(".default_option.lang li").html(currentele);
 		$(this).parents(".select_wrap.lang").removeClass("active");
-	})
+	});
+
 });

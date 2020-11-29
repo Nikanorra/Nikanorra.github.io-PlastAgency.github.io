@@ -19,6 +19,8 @@
 .deal__wrapp {
   position: relative;
   height: 440px; }
+  .deal__wrapp a {
+    display: block; }
 
 .deal__time {
   position: absolute;
